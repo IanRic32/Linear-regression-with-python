@@ -55,7 +55,7 @@ def regre(x,y): #we create a function called regre with 2 parameters
     xlabel("Serie 1")
     ylabel("Serie 2")
    
-    show()
+    show() #we show the all plots
     
     print("**********"*10)
     print("Varianza(x)= {}\nVarianza(y)={}".format(sum(x11)/len(x11),sum(y11)/len(y11)),"\nEcuacion del modelo:\t y={:.3e}+{:.3e}x".format(betha0,betha1),"\nMedia de:\n x={}\n y={}".format(sum(x)/len(x),sum(y)/len(y) ),"\nR^2={:3e}".format(R2))
